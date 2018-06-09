@@ -1,0 +1,5 @@
+#!/bin/sh
+
+touch file.txt
+
+aws s3 cp file.txt s3://rohan1996/file1.txt
